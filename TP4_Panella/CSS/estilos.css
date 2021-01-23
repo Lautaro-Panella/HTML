@@ -1,0 +1,14 @@
+.borde{
+    border: 2px solid gray;   
+    padding: 3%;
+    margin: 2px;       
+}
+.flexible{
+    display: flex;
+}
+.centrado{
+    text-align: center;
+}
+.tipografia{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>ARTE</title>
+        <link rel="stylesheet" href="CSS/estilos.css">
+    </head>
+    <body>
+        <div class="tipografia">
+            <h2 class="centrado">CATÁLOGO DE ARTE</h2><br>
+            <b>Introduce los términos de búsqueda:</b><br><br>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <b>OBRA</b><br>
+                            <label for="titulo">Título</label>
+                            <input type="text" id="titulo" name="titulo"><br>
+                            <label for="autor">Autor</label>
+                            <input type="text" id="autor" name="autor"><br><br>    
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <b>TIPO</b><br>
+                            <input type="checkbox" name="tipo" value="esc">Escultura<br>
+                            <input type="checkbox" name="tipo" value="arq">Arquitectura<br>
+                            <input type="checkbox" name="tipo" value="pint">Pintura<br>
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <b>DISPONIBILIDAD</b><br>
+                            <input type="radio" name="disp" value="publ">Museo / Acceso público<br>
+                            <input type="radio" name="disp" value="priv">Colección privada<br><br>
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <b>ESTILO</b><br>
+                            <select name="estilo" id="estilo">
+                                <option value="clas">Clásico</option>
+                                <option value="abs">Abstracto</option>
+                                <option value="surr">Surrealista</option>
+                                <option value="otro">Otros</option>
+                            </select><br><br><br> 
+                        </td>
+                    </tr>
+                </table><br><br> 
+                <label for="txtArea"><b>Háganos saber sus sugerencias:</b></label>
+                <textarea name="txtArea" id="txtArea" cols="40" rows="4">Me gustaría indicar que...</textarea><br><br>
+                <div class="centrado"><button>Buscar</button></div>    
+            </form>
+        </div>
+    </body>
+</html>
